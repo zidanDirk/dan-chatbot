@@ -12,7 +12,7 @@ function IconNextChat({
   const id = React.useId()
 
   return (
-    <img className={cn('size-4', 'rounded-full', className)} src="/favicon-16x16-2.png" />
+    <img className={cn('size-4', 'rounded-full', className)} src="/android-chrome-512x512.png" />
   )
   return (
     <svg
