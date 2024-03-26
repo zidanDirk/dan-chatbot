@@ -12,6 +12,9 @@ function IconNextChat({
   const id = React.useId()
 
   return (
+    <img className={cn('size-4', 'rounded-full', className)} src="/favicon-16x16-2.png" />
+  )
+  return (
     <svg
       viewBox="0 0 17 17"
       fill="none"
@@ -473,6 +476,12 @@ function IconChevronUpDown({
     >
       <path d="M181.66 170.34a8 8 0 0 1 0 11.32l-48 48a8 8 0 0 1-11.32 0l-48-48a8 8 0 0 1 11.32-11.32L128 212.69l42.34-42.35a8 8 0 0 1 11.32 0Zm-96-84.68L128 43.31l42.34 42.35a8 8 0 0 0 11.32-11.32l-48-48a8 8 0 0 0-11.32 0l-48 48a8 8 0 0 0 11.32 11.32Z" />
     </svg>
+  )
+}
+
+function InconLogoD () {
+  return (
+    <i></i>
   )
 }
 

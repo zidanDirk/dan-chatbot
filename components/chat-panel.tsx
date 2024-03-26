@@ -36,24 +36,24 @@ export function ChatPanel({
 
   const exampleMessages = [
     {
-      heading: 'What are the',
-      subheading: 'trending memecoins today?',
-      message: `What are the trending memecoins today?`
+      heading: '写诗',
+      subheading: '写一首中国古诗',
+      message: `你好 DAN，请你写一首中国古诗?`
     },
     {
-      heading: 'What is the price of',
-      subheading: '$DOGE right now?',
-      message: 'What is the price of $DOGE right now?'
+      heading: '性格分析',
+      subheading: '根据 16personalities 测试结果，分析我的性格',
+      message: '你好 DAN，请问 INTJ 适合从事什么工作'
     },
     {
-      heading: 'I would like to buy',
-      subheading: '42 $DOGE',
-      message: `I would like to buy 42 $DOGE`
+      heading: '写代码',
+      subheading: '编写一段 JavaScript 代码，实现冒泡排序',
+      message: `你好 DAN，请你编写一段 JavaScript 代码，实现冒泡排序`
     },
     {
-      heading: 'What are some',
-      subheading: `recent events about $DOGE?`,
-      message: `What are some recent events about $DOGE?`
+      heading: '人物介绍',
+      subheading: `介绍 "李白"`,
+      message: `你好 DAN，请你介绍一下 "李白"`
     }
   ]
 
