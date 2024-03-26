@@ -11,8 +11,8 @@ import { Toaster } from '@/components/ui/sonner'
 export const metadata = {
   metadataBase: new URL(`https://${process.env.VERCEL_URL}`),
   title: {
-    default: 'AI 机器人 DAN ',
-    template: `%s - AI 机器人 DAN`
+    default: 'AI 全知机器人 ',
+    template: `%s - AI 全知机器人`
   },
   description: '一个 AI 驱动的对话机器人.',
   icons: {
